@@ -21,8 +21,8 @@ const HeaderDropDown = ({onSelect}) => {
 
   return (
     <div className="HeaderDropDown">
-        <HeaderDropDownItem data={groupItems} onChangeHandler={onSelectGroup} selected={groupType} />
-        <HeaderDropDownItem data={sortItems} onChangeHandler={onSelectSort} selected={sortType} />
+        <HeaderDropDownItem name="Grouping" data={groupItems} onChangeHandler={onSelectGroup} selected={groupType} />
+        <HeaderDropDownItem name="Ordering" data={sortItems} onChangeHandler={onSelectSort} selected={sortType} />
     </div>
   )
 }
