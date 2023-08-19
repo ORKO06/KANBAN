@@ -2,7 +2,6 @@ import Heading1 from '../Typography/Heading1';
 import './UserProfile.css';
 
 const UserProfile = ({name,userStatus}) => {
-    console.log(name,userStatus);
     let initials = ''
     let parts = name.split(' ')
     for (var i = 0; i < parts.length; i++) {
