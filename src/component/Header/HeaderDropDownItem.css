@@ -1,0 +1,5 @@
+.Header-DropDown-Container{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
